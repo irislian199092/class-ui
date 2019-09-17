@@ -1,6 +1,6 @@
 {
   "name": "@newedu/btn",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "按钮",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,6 @@
     "btn"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "e9e701f2ab902539a792da1da88a148943fb500d"
 }
