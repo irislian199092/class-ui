@@ -46,6 +46,9 @@
       "autoprefixer": {}
     }
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions"
