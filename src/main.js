@@ -1,9 +1,9 @@
 import Vue from 'vue'
-// import VConsole from 'vconsole'
+import Btn from '@newedu/btn'
 import App from './App.vue'
 import store from './store'
 
-// Vue.use(Test)
+Vue.use(Btn)
 // import sscui from '@sscui/ui'
 // import '@sscui/theme/src/index.scss';
 
