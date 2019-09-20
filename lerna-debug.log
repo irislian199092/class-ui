@@ -1,5 +1,12 @@
-53 error Error: Command failed: git push --follow-tags --no-verify origin master
-53 error fatal: unable to access 'https://github.com/irislian199092/class-ui.git/': LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
-53 error
-53 error     at makeError (/Users/lulian/myself/class-ui/node_modules/execa/index.js:174:9)
-53 error     at Promise.all.then.arr (/Users/lulian/myself/class-ui/node_modules/execa/index.js:278:16)
+15 error Error: Command failed: git remote update
+15 error fatal: unable to access 'https://github.com/irislian199092/class-ui.git/': LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+15 error error: Could not fetch origin
+15 error
+15 error Fetching origin
+15 error
+15 error     at makeError (/Users/lulian/myself/class-ui/node_modules/execa/index.js:174:9)
+15 error     at Function.module.exports.sync (/Users/lulian/myself/class-ui/node_modules/execa/index.js:338:15)
+15 error     at Object.execSync (/Users/lulian/myself/class-ui/node_modules/@lerna/child-process/index.js:26:16)
+15 error     at updateRemote (/Users/lulian/myself/class-ui/node_modules/@lerna/version/lib/is-behind-upstream.js:26:16)
+15 error     at isBehindUpstream (/Users/lulian/myself/class-ui/node_modules/@lerna/version/lib/is-behind-upstream.js:11:3)
+15 error     at VersionCommand.initialize (/Users/lulian/myself/class-ui/node_modules/@lerna/version/index.js:149:9)

@@ -10,7 +10,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@newedu/btn": "^1.0.4",
+    "@newedu/btn": "^1.0.5",
     "core-js": "^2.6.5",
     "lerna": "^3.16.4",
     "vue": "^2.6.10",
